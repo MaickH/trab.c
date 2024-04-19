@@ -66,7 +66,7 @@ void merge(int *v, int *c, int i, int m, int f) {
   for (z = i; z <= f; z++) c[z] = v[z];
 
   z = i;
-8
+
   while (iv <= m && ic <= f) {
     /* Invariante: v[i..z] possui os valores de v[iv..m] e v[ic..f] em ordem crescente. */
 
